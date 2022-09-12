@@ -44,6 +44,9 @@ spring:
     schemas: book_service
     user: root
     password: 123456
+  sleuth:
+    sampler:
+      probability: 1.0
 springdoc:
   api-docs:
     path: book-service/v3/api-docs
